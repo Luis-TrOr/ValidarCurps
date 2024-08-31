@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 
 public class Main {
 
-    private static final String CURP_REGEX = "^[A-Z]{4}\\d{6}[HM][A-Z]{5}\\d{2}$";
+    private static final String CURP_REGEX = "[A-Z]{4}\d{6}[HM][A-Z]{5}[A-Z0-9]{2}";
 
     public static void main(String[] args) {
         String filePath = "EjemplosCurps.txt";
